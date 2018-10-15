@@ -7,7 +7,28 @@
       will return an array of the tags entered</p>
     <h2>Documentation</h2>
     <h2>Examples</h2>
-    <vue-tag-selector/>
+    <h3>No style</h3>
+    <vue-tag-selector
+      label="Post tags"
+      v-model="tags"
+      name="tags"
+      :regex="/^[a-zA-Z0-9]*$/"
+      regex-error="lol no"/>
+    <pre>
+      {{tags}}
+    </pre>
+    <h3>Material theme</h3>
+    <div class="theme-material">
+      <vue-tag-selector
+      label="Post tags"
+      v-model="tags"
+      name="tags"
+      :regex="/^[a-zA-Z0-9]*$/"
+      regex-error="lol no"/>
+    </div>
+    <pre>
+      {{tags}}
+    </pre>
   </div>
 </template>
 
@@ -16,6 +37,11 @@ import VueTagSelector from './components/VueTagSelector.vue'
 
 export default {
   name: 'app',
+  data(){
+    return{
+      tags: []
+    }
+  },
   components: {
     VueTagSelector
   }
@@ -29,6 +55,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin: 0 auto;
   margin-top: 60px;
+  padding: 20px;
+  max-width: 650px;
 }
 </style>

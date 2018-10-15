@@ -16,7 +16,6 @@
       type="text" 
       :id="name" 
       :name="name" 
-      :placeholder="placeholder" 
       class="tag-list-input">
     </div>
     <p v-if="error" class="validation-message">{{$t(error)}}</p>
@@ -115,6 +114,7 @@ label{
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: flex-start;
+  border: 1px solid #ccc;
 }
 .tag-list--item{
   margin: 0;
@@ -142,6 +142,7 @@ label{
 
 .theme-material{
   .tag-list--input{
+    border: none;
     border-bottom: 1px dotted #959595;
     margin-bottom:1.2em;
   }
