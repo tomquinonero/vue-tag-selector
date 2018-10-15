@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Vue tage selector</h1>
+    <p>Vue tag selector is a form component written with vue 
+      (duh) and allows you to create tag seleciton like field.</p>
+    <p>The goal is to use a v-model property on the component that 
+      will return an array of the tags entered</p>
+    <h2>Documentation</h2>
+    <h2>Examples</h2>
+    
   </div>
 </template>
 
