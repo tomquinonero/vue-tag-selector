@@ -7,17 +7,17 @@
       will return an array of the tags entered</p>
     <h2>Documentation</h2>
     <h2>Examples</h2>
-    
+    <vue-tag-selector/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueTagSelector from './components/VueTagSelector.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    VueTagSelector
   }
 }
 </script>
