@@ -1,10 +1,18 @@
 # vue-tag-selector
 
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/react.svg?style=for-the-badge)](https://github.com/tomquinonero/vue-tag-selector)
+[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/react.svg?style=for-the-badge)](https://github.com/tomquinonero/vue-tag-selector)
+[![npm version](https://img.shields.io/npm/v/vue-tag-selector.svg?style=for-the-badge)](https://github.com/tomquinonero/vue-tag-selector)
+
+
+
+
 Vue-tag-selector is a component for vuejs for tag type fields. Light (4.4kb gzipped) and customizable.
 Offering regex validation.
 
+<p align="center">
 ![vue-tag-selector demo](https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/docs/tag-selector.gif)
-
+</p>
 ### Installation
 ```
 # with npm
@@ -46,17 +54,6 @@ Here's a list of the props available:
  
 
 ## Related
-
-<p align="center">
-  <a href="https://npmjs.org/package/vue-tag-selector">
-    <img src="https://img.shields.io/npm/v/vue-tag-selector.svg?style=flat-square" alt="Packagist" />
-  </a>
-
-  <a href="https://github.com/tomquinonero/vue-tag-selector/issues">
-    <img src="https://img.shields.io/github/issues/tomquinonero/vue-tag-selector.svg?style=flat-square" alt="Issues" />
-  </a>
-</p>
-
 
 [on Bundlephobia][link-bundlephobia] - [on npm][link-npm]
 
