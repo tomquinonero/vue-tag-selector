@@ -1,15 +1,6 @@
 <template>
   <div id="app">
-    <h1>Vue tage selector</h1>
-    <p>Vue tag selector is a form component written with vue 
-      (duh) and allows you to create tag seleciton like field.</p>
-    <p>The goal is to use a v-model property on the component that 
-      will return an array of the tags entered</p>
-    <h2>Documentation</h2>
-    <h3>Installation</h3>
-    
-    <h2>Examples</h2>
-    <h3>No style</h3>
+    <h1>Vue tage selector demo</h1>
     <vue-tag-selector
       label="Post tags"
       v-model="tags"
@@ -31,7 +22,7 @@
 </template>
 
 <script>
-import VueTagSelector from './components/VueTagSelector.vue'
+import VueTagSelector from './components/VueTagSelector'
 
 export default {
   name: 'app',

@@ -3,17 +3,6 @@
 Vue-tag-selector is a component for vuejs for tag type fields. Light (4.4kb gzipped) and customizable.
 Offering regex validation.
 
-<https://bundlephobia.com/result?p=vue-tag-selector>
-
-<p align="center">
-  <a href="https://npmjs.org/package/vue-tag-selector">
-    <img src="https://img.shields.io/npm/v/vue-tag-selector.svg?style=flat-square" alt="Packagist" />
-  </a>
-
-  <a href="https://github.com/tomquinonero/vue-tag-selector/issues">
-    <img src="https://img.shields.io/github/issues/tomquinonero/vue-tag-selector.svg?style=flat-square" alt="Issues" />
-  </a>
-</p>
 
 ### Installation
 ```
@@ -54,8 +43,25 @@ Here's a list of the props available:
  - `regex`: A RegExp. Validates every tag and disallow adding if not matching. By default it's alphanumerical only (`/^[a-zA-Z0-9]*$/`)
  - `regexError`: The error displayed when the Regex doesn't match 
  
-## Credits
 
-- [Tom Quinonero][link-author]
+## Related
+
+<p align="center">
+  <a href="https://npmjs.org/package/vue-tag-selector">
+    <img src="https://img.shields.io/npm/v/vue-tag-selector.svg?style=flat-square" alt="Packagist" />
+  </a>
+
+  <a href="https://github.com/tomquinonero/vue-tag-selector/issues">
+    <img src="https://img.shields.io/github/issues/tomquinonero/vue-tag-selector.svg?style=flat-square" alt="Issues" />
+  </a>
+</p>
+
+
+[on Bundlephobia][link-bundlephobia] - [on npm][link-npm]
+
+Created by [Tom Quinonero][link-author]
+
 
 [link-author]: https://tomquinonero.com
+[link-bundlephobia]: https://bundlephobia.com/result?p=vue-tag-selector@0.2.0
+[link-npm]: https://www.npmjs.com/package/vue-tag-selector

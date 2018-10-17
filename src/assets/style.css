@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.tag-list--input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  border: 1px solid #ccc;
+}
+
+.tag-list--item {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.tag-list--remove {
+  display: inline-block;
+  vertical-align: text-top;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.tag-list--remove svg {
+  fill: currentColor;
+}
+
+.tag-list-input {
+  margin-bottom: 0;
+  min-width: 80px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  background: transparent;
+}
+
+.theme-material .tag-list--input {
+  border: none;
+  border-bottom: 1px dotted #959595;
+  margin-bottom: 1.2em;
+}
+.theme-material .tag-list--item {
+  background: #e6e6e6;
+  color: #434343;
+  margin-right: 8px;
+  padding-left: 12px;
+  border-radius: 32px;
+}
+.theme-material .tag-list--item:hover {
+  background: #434343;
+  color: #fafafa;
+}
+.theme-material .tag-list--item:hover .tag-list--remove {
+  color: #fafafa;
+}
+.theme-material .tag-list--remove {
+  width: 24px;
+  height: 24px;
+  color: #434343;
+  margin: 4px 4px;
+}
+.theme-material .tag-list--item,
+.theme-material .tag-list-input {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.theme-material .validation-message {
+  color: #a90014;
+}
