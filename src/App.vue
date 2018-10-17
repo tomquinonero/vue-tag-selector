@@ -9,31 +9,7 @@
     <a href="https://www.npmjs.com/package/vue-tag-selector">vue-tag-selector on npm</a>
     </p>
 
-    <br>
-    <br>
-    <br>
-    <div class="grid has-gutter-l theme-example">
-
-    <div class="col-2 returned-values">
-      <br/>
-      <br/>
-        <code>
-          {{tags1}}
-        </code>
-      </div>
-      <div class="col-5">
-            <h4>Vue-tag-selector example</h4>
-            <vue-tag-selector
-              label="Post tags"
-              v-model="tags1"
-              name="tags" />
-      </div>
-    </div>
-    <br>
-    <br>
-    <br>
-
-
+    <hr>
 
     <h2 id="styles">Using styles</h2>
     <p>The component philosophy is pretty straightforward here: only the mandatory style is bundled.<br/>
@@ -233,6 +209,10 @@ export default {
   }
   a{
     color:#df2323;
+  }
+  hr{
+    border: none;
+    border-bottom: 3px solid #df2323;
   }
 }
 
