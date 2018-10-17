@@ -150,44 +150,4 @@ label{
   flex-grow: 1;
   background: transparent;
 }
-
-
-.theme-material{
-  .tag-list--input{
-    border: none;
-    border-bottom: 1px dotted #959595;
-    margin-bottom:1.2em;
-  }
-  .tag-list--item{
-    background: #e6e6e6;
-    color: #434343;
-    margin-right: 8px;
-    padding-left: 12px;
-    border-radius: 32px;
-    &:hover{
-      background: #434343;
-      color: #fafafa;
-      .tag-list--remove{
-        color: #fafafa;
-      }
-    }
-  }
-
-  .tag-list--remove{
-    width: 24px;
-    height: 24px;
-    color: #434343;
-    margin: 4px 4px; 
-  }
-  .tag-list--item,
-  .tag-list-input{
-    height: 32px;
-    line-height: 32px;
-    margin-bottom: 8px;
-    font-size: 14px;
-  }
-  .validation-message{
-    color: #a90014;
-  }
-}
 </style>

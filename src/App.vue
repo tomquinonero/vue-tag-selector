@@ -23,6 +23,7 @@
 
 <script>
 import VueTagSelector from './components/VueTagSelector'
+import './assets/theme_material.css'
 
 export default {
   name: 'app',
