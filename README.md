@@ -1,4 +1,7 @@
 # vue-tag-selector
+<p align="center">
+  <img alt="vue-tag-selector logo" src="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/docs/tag-selector-logo.png">
+</p>
 
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/react.svg?style=for-the-badge)](https://github.com/tomquinonero/vue-tag-selector)
 [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/react.svg?style=for-the-badge)](https://github.com/tomquinonero/vue-tag-selector)
