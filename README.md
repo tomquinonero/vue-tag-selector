@@ -1,31 +1,61 @@
 # vue-tag-selector
 
-## Project setup
+Vue-tag-selector is a component for vuejs for tag type fields. Light (4.4kb gzipped) and customizable.
+Offering regex validation.
+
+<https://bundlephobia.com/result?p=vue-tag-selector>
+
+<p align="center">
+  <a href="https://npmjs.org/package/vue-tag-selector">
+    <img src="https://img.shields.io/npm/v/vue-tag-selector.svg?style=flat-square" alt="Packagist" />
+  </a>
+
+  <a href="https://github.com/tomquinonero/vue-tag-selector/issues">
+    <img src="https://img.shields.io/github/issues/tomquinonero/vue-tag-selector.svg?style=flat-square" alt="Issues" />
+  </a>
+</p>
+
+### Installation
 ```
-npm install
+# with npm
+npm install --save vue-tag-selector
+# with yarn
+yarn add vue-tag-selector
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+### Usage
+For using the component you just need to import the component and register it: 
+``` js
+import TagSelector from 'vue-tag-selector'
+export default {
+  components: { TagSelector },
+  data(){
+    return {
+      tags: []
+    }
+  }
+}
 ```
 
-### Run your unit tests
+And then use it in your template:
+``` html
+<template>
+  <div class="container">
+    <tag-selector name="tags" v-model="tags"/>
+  </div>
+</template>
 ```
-npm run test:unit
-```
+### API Documentation
+
+Here's a list of the props available: 
+ - `label`: Displays a label, has to be String can be ignored
+ - `name`: _Required_. usually the field name.
+ - `classes`: Allows you to add classes to the field. String or Array.
+ - `regex`: A RegExp. Validates every tag and disallow adding if not matching. By default it's alphanumerical only (`/^[a-zA-Z0-9]*$/`)
+ - `regexError`: The error displayed when the Regex doesn't match 
+ 
+## Credits
+
+- [Tom Quinonero][link-author]
+
+[link-author]: https://tomquinonero.com
