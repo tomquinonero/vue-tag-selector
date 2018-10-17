@@ -6,13 +6,14 @@
 
 
 
-
-Vue-tag-selector is a component for vuejs for tag type fields. Light (4.4kb gzipped) and customizable.
-Offering regex validation.
-
 <p align="center">
-![vue-tag-selector demo](https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/docs/tag-selector.gif)
+  Vue-tag-selector is a component for vuejs for tag type fields. <br/>
+  Light (4.4kb gzipped) and customizable.</br>
+  Offering regex validation.</br></br>
+  
+  <img alt="vue-tag-selector demo" src="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/docs/tag-selector.gif">
 </p>
+
 ### Installation
 ```
 # with npm
