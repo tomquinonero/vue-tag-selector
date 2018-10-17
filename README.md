@@ -12,7 +12,12 @@
   Offering regex validation.</br></br>
   
   <img alt="vue-tag-selector demo" src="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/docs/tag-selector.gif">
+  <br/>
+  <br/>
+  <a href="http://tomquinonero.com/vue-tag-selector/" target="_blank">Check out the demo</a>
 </p>
+
+
 
 ### Installation
 ```
@@ -83,6 +88,9 @@ Have an example template:
 
 One rule tho, `.tag-selector--input` _has_ to be `display: flex;`.
 
+You can see different themes applied in the [demo][link-demo]
+
+
 ## Related
 
 [on Bundlephobia][link-bundlephobia] - [on npm][link-npm]
@@ -93,3 +101,4 @@ Created by [Tom Quinonero][link-author]
 [link-author]: https://tomquinonero.com
 [link-bundlephobia]: https://bundlephobia.com/result?p=vue-tag-selector
 [link-npm]: https://www.npmjs.com/package/vue-tag-selector
+[link-demo]: http://tomquinonero.com/vue-tag-selector/
