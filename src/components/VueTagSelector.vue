@@ -1,6 +1,6 @@
 <template>
   <div class="field tag-list" :class="classes">
-    <label :for="name">{{label}} <em class="optional" v-if="optional">optional</em></label>
+    <label :for="name">{{label}}</label>
     <div class="tag-list--input">
       <div class="tag-list--item" v-for="(item, index) in newValue" :key="index">
         {{item}} 
@@ -36,12 +36,8 @@ export default{
       type: Array
     },
     classes: {
-      type: String,
+      type: [String, Array],
       default: ''
-    },
-    optional: {
-      type: Boolean,
-      default: true
     },
     regex: {
       type: RegExp,

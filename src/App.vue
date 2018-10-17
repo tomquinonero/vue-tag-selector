@@ -6,6 +6,8 @@
     <p>The goal is to use a v-model property on the component that 
       will return an array of the tags entered</p>
     <h2>Documentation</h2>
+    <h3>Installation</h3>
+    
     <h2>Examples</h2>
     <h3>No style</h3>
     <vue-tag-selector
