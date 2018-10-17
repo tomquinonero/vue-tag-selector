@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <h1>Vue tage selector demo</h1>
+    <h1>Vue tag selector demo</h1>
     <vue-tag-selector
       label="Post tags"
       v-model="tags"
       name="tags" />
-    <pre>
-      {{tags}}
-    </pre>
+    <br/>
+    Tags: {{tags.join(', ')}}
+    <br/>
+    <br/>
+    
     <h3>Material theme</h3>
     <div class="theme-material">
       <vue-tag-selector
