@@ -11,9 +11,7 @@
     <vue-tag-selector
       label="Post tags"
       v-model="tags"
-      name="tags"
-      :regex="/^[a-zA-Z0-9]*$/"
-      regex-error="lol no"/>
+      name="tags" />
     <pre>
       {{tags}}
     </pre>
@@ -22,9 +20,7 @@
       <vue-tag-selector
       label="Post tags"
       v-model="tags"
-      name="tags"
-      :regex="/^[a-zA-Z0-9]*$/"
-      regex-error="lol no"/>
+      name="tags"/>
     </div>
     <pre>
       {{tags}}

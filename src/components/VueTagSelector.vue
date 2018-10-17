@@ -18,21 +18,39 @@
       :name="name" 
       class="tag-list-input">
     </div>
-    <p v-if="error" class="validation-message">{{$t(error)}}</p>
+    <p v-if="error" class="validation-message">{{error}}</p>
   </div>
 </template>
 <script>
 export default{
   name: 'vue-tag-selector',
   props: {
-    label: String,
-    name: String,
-    value: Array,
-    classes: String,
-    optional: Boolean,
-    regex: RegExp,
-    regexError: String
-  },
+    label: {
+      type: String,
+      default: ''
+    },
+    name: {
+      type: String,
+    },
+    value: {
+      type: Array
+    },
+    classes: {
+      type: String,
+      default: ''
+    },
+    optional: {
+      type: Boolean,
+      default: true
+    },
+    regex: {
+      type: RegExp,
+      default: ()=>{return /^[a-zA-Z0-9]*$/}
+    },
+    regexError: {
+      type: String,
+      default: "Invalid format"
+},},
   data(){
     return{
       newValue: Array,
@@ -43,9 +61,6 @@ export default{
     }
   },
   methods:{
-    checkSuggestion(){
-      this.suggestions = ['Suggestion 1','Cool tag','One more']
-    },
     handleBackspace(){
       if(this.tag == ""){
         if(this.backspace_count == 0){
@@ -83,6 +98,7 @@ export default{
           this.error = ""
         }else{
           this.error = this.regexError
+          this.tag = ''
         }
       }
     }
