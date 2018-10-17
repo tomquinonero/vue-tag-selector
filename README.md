@@ -1,4 +1,3 @@
-# vue-tag-selector
 <p align="center">
   <img alt="vue-tag-selector logo" src="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/docs/tag-selector-logo.png">
 <br/>
