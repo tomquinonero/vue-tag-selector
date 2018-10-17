@@ -3,8 +3,17 @@
     <div class="header">
       <h1>Vue-tag-selector demo</h1>
     </div>
-    <p>Here"s the demo for <a href="https://github.com/tomquinonero/vue-tag-selector">vue-tag-selector</a>, 
-    an amazing and light vuejs component.</p>
+    <p class="hero">Here's the demo for <a href="https://github.com/tomquinonero/vue-tag-selector">vue-tag-selector</a>, 
+    an amazing and light vuejs component.<br><br>
+    <a href="https://github.com/tomquinonero/vue-tag-selector">vue-tag-selector on github</a> | 
+    <a href="https://www.npmjs.com/package/vue-tag-selector">vue-tag-selector on npm</a>
+    </p>
+
+    <h2 id="styles">Using styles</h2>
+    <p>The component philosophy is pretty straightforward here: only the mandatory style is bundled.<br/>
+    I personally never liked js library that needs too much CSS. <br/>
+    Only 26 lines of CSS here 😉.<br/>
+    But you can easily stylize the component and there's examples of it:</p>
     <div class="grid-7">
       <div class="col-2 returned-values">
         <code>
@@ -12,9 +21,10 @@
         </code>
       </div>
       <div class="col-5">
-        <ol start>
+        <ol start="1">
           <li>
-            <h4>Basic example</h4>
+            <h4>No style example</h4>
+            <p>The component will look like this without any style added.</p>
             <vue-tag-selector
               label="Post tags"
               v-model="tags1"
@@ -22,6 +32,7 @@
           </li>
           <li class="theme-material">
             <h4>Material theme example</h4>
+            <p>A basic material design theme. You can download the css for it <a href="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/src/assets/theme_material.css" target="_blank" rel="noopener noreferrer">here</a>.</p>
             <vue-tag-selector
               label="Post tags"
               v-model="tags1"
@@ -29,6 +40,7 @@
           </li>
           <li class="theme-example">
             <h4>Look goods theme example</h4>
+            <p>A home cooked colored theme. We are gonna use it for the next examples. You can download the css for it <a href="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/src/assets/theme_looking-good.css" target="_blank" rel="noopener noreferrer">here</a>.</p>
             <vue-tag-selector
               label="Post tags:"
               v-model="tags1"
@@ -38,7 +50,9 @@
       </div>
     </div>
     <hr>
-    <h2>Regex validations</h2>
+    <h2 id="styles">Regex validations</h2>
+    <p>Vue-tag-selector is providing a regex props for validating tags.<br/>
+    You can also specify a message for the case it fails.</p>
      <div class="grid-7">
       <div class="col-2 returned-values">
         <code>
@@ -110,7 +124,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 40px;
   padding: 20px;
   max-width: 800px;
   .header{
@@ -166,6 +180,15 @@ export default {
     background: #e9e9e9;
     display: inline-block;
     padding: 5px;
+  }
+  .hero{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  a{
+    color:#df2323;
   }
 }
 
