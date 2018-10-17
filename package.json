@@ -4,7 +4,8 @@
   "version": "0.2.3",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name lib ./src/components/VueTagSelector.vue",
+    "build": "vue-cli-service build",
+    "bundle": "vue-cli-service build --target lib --name lib ./src/components/VueTagSelector.vue",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
