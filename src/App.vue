@@ -9,6 +9,32 @@
     <a href="https://www.npmjs.com/package/vue-tag-selector">vue-tag-selector on npm</a>
     </p>
 
+    <br>
+    <br>
+    <br>
+    <div class="grid has-gutter-l theme-example">
+
+    <div class="col-2 returned-values">
+      <br/>
+      <br/>
+        <code>
+          {{tags1}}
+        </code>
+      </div>
+      <div class="col-5">
+            <h4>Vue-tag-selector example</h4>
+            <vue-tag-selector
+              label="Post tags"
+              v-model="tags1"
+              name="tags" />
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+
     <h2 id="styles">Using styles</h2>
     <p>The component philosophy is pretty straightforward here: only the mandatory style is bundled.<br/>
     I personally never liked js library that needs too much CSS. <br/>
@@ -30,6 +56,15 @@
               v-model="tags1"
               name="tags" />
           </li>
+        </ol>
+      </div>
+      <div class="col-2 returned-values">
+        <code>
+          {{tags1}}
+        </code>
+      </div>
+      <div class="col-5">
+        <ol start="2">
           <li class="theme-material">
             <h4>Material theme example</h4>
             <p>A basic material design theme. You can download the css for it <a href="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/src/assets/theme_material.css" target="_blank" rel="noopener noreferrer">here</a>.</p>
@@ -38,6 +73,15 @@
               v-model="tags1"
               name="tags" />
           </li>
+        </ol>
+      </div>
+      <div class="col-2 returned-values">
+        <code>
+          {{tags1}}
+        </code>
+      </div>
+      <div class="col-5">
+        <ol start="3">
           <li class="theme-example">
             <h4>Look goods theme example</h4>
             <p>A home cooked colored theme. We are gonna use it for the next examples. You can download the css for it <a href="https://raw.githubusercontent.com/tomquinonero/vue-tag-selector/master/src/assets/theme_looking-good.css" target="_blank" rel="noopener noreferrer">here</a>.</p>
