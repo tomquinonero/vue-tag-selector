@@ -1,7 +1,7 @@
 {
   "name": "vue-tag-selector",
   "main": "./dist/lib.common.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name lib ./src/components/VueTagSelector.vue",
