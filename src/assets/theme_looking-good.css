@@ -1,0 +1,51 @@
+.theme-looking-good label {
+  color: #df2323;
+  font-weight: bold;
+}
+.theme-looking-good .tag-selector--input {
+  border: none;
+}
+.theme-looking-good .tag-selector--item {
+  background: #faf730;
+  color: #df2323;
+  margin-right: 8px;
+  padding-left: 12px;
+  font-weight: bold;
+  box-shadow: 5px 5px;
+  transition: 150ms all ease-in;
+  transform-origin: 50% 50%;
+}
+.theme-looking-good .tag-selector--item:hover {
+  -webkit-animation: rotate_logo 400ms infinite;
+          animation: rotate_logo 400ms infinite;
+}
+.theme-looking-good .tag-selector--remove {
+  width: 24px;
+  height: 24px;
+  color: #df2323;
+  line-height: 24px;
+}
+.theme-looking-good .tag-selector--remove svg {
+  width: 14px;
+  height: 14px;
+  transition: 150ms all ease-in;
+}
+.theme-looking-good .tag-selector--remove:hover svg {
+  transform: scale(1.2);
+  transform-origin: center center;
+}
+.theme-looking-good .tag-selector--item,
+.theme-looking-good .tag-selector-input {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #df2323;
+  font-weight: bold;
+}
+.theme-looking-good .validation-message {
+  color: #df2323;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
